@@ -1,4 +1,4 @@
-let score = false
+/*let score = false
 
 //console.log(typeof score);
 //console.log(typeof(score));
@@ -24,3 +24,19 @@ let stringnumber = String(somenumber)
 
 console.log(stringnumber);
 console.log(typeof(stringnumber));
+*/
+
+//******************************************************* Operations **************************************************
+
+let value = 3
+let neg = -value
+//console.log(neg);
+
+let str1 = "hello"
+let str2 = "aman"
+
+let str3 = str1 + " " + str2
+
+console.log("3" + "3" + 5);
+console.log(3 + 3 + "5" + 4 + 6);
+
