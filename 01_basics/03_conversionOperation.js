@@ -37,6 +37,6 @@ let str2 = "aman"
 
 let str3 = str1 + " " + str2
 
-console.log("3" + "3" + 5);
-console.log(3 + 3 + "5" + 4 + 6);
+//console.log("3" + "3" + 5);
+//console.log(3 + 3 + "5" + 4 + 6);
 
