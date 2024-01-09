@@ -17,11 +17,25 @@ const heros = ["shaktiman", "superman", "batman"]
 let obj1 = {
     name: "aman",
     age: 22,
-    sex: "male"
+    sex: "male",
 }
 
 const myfunction = function(){
     console.log("hello");
 }
 
-console.log(typeof(myfunction));
+//console.log(typeof(myfunction));
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++ Memory +++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//Stack (Primitive), Heap (Non-Premitive)
+
+let myytname = "aman"
+let anothername = myytname
+anothername = "chaiaurcode"
+
+//console.log(anothername);
+
+let obj2=obj1
+obj2.age = 56
+console.log(obj1.age);
