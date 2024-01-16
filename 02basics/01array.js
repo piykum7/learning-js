@@ -1,7 +1,7 @@
 //array
 
 const arr = [1, 2, 3, 4, 5, "aman", true]
-const arr2 = new Array(1,3,5,7)
+const arr2 = new Array(1,3,5,7,9,11)
 
 //console.log(arr.length);
 
@@ -27,6 +27,6 @@ const arr3 = arr2.join()
 
 //slice, splice
 
-//console.log(arr2.slice(1, 3));
-console.log("B ", arr2);
-console.log(arr2.splice(1, 3));
+console.log(arr2.slice(1, 3));      //will not make any change in original array
+//console.log("B ", arr2);
+console.log(arr2.splice(1, 3));     //will make change in original array
